@@ -1,0 +1,5 @@
+WinActivate("Open")
+ControlFocus("Open","","[CLASS:Edit; INSTANCE:1]")
+ControlSetText("Open","","[CLASS:Edit; INSTANCE:1]","C:\Users\Hulk\Downloads\e_card.pdf")
+Sleep(3000)
+ControlClick("Open","","[CLASS:Button; INSTANCE:1]")
